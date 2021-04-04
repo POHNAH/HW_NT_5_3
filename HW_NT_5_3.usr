@@ -1,0 +1,73 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=HW_NT_5_3.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=60
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.60.0.971
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=
+DisableRegenerate=0
+Encoding=
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.c
+logic=logic.c
+createTicket=createTicket.c
+checkAndDel=checkAndDel.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+logic=1
+createTicket=1
+checkAndDel=0
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+logic=0
+createTicket=0
+checkAndDel=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=0
+logic=0
+createTicket=0
+checkAndDel=0
+vuser_end=0
+[Interpreters]
+vuser_init=cci
+logic=cci
+createTicket=cci
+checkAndDel=cci
+vuser_end=cci
+[TransactionsOrder]
+Order=
+[StateManagement]
+LastReplayStatus=0
+[ActiveReplay]
+LastReplayedRunName=
+ActiveRunName=
+[ImportedAction]
+logic=
+createTicket=
+checkAndDel=
