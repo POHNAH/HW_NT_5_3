@@ -40,7 +40,7 @@ globals.h=
 vuser_init=0
 logic=1
 createTicket=1
-checkAndDel=0
+checkAndDel=1
 vuser_end=0
 [Recorded Actions]
 vuser_init=0
@@ -49,11 +49,11 @@ createTicket=0
 checkAndDel=0
 vuser_end=0
 [Replayed Actions]
-vuser_init=0
-logic=0
-createTicket=0
-checkAndDel=0
-vuser_end=0
+vuser_init=1
+logic=1
+createTicket=1
+checkAndDel=1
+vuser_end=1
 [Interpreters]
 vuser_init=cci
 logic=cci
@@ -63,10 +63,10 @@ vuser_end=cci
 [TransactionsOrder]
 Order=
 [StateManagement]
-LastReplayStatus=0
+LastReplayStatus=1
 [ActiveReplay]
-LastReplayedRunName=
-ActiveRunName=
+LastReplayedRunName=result1
+ActiveRunName=result1
 [ImportedAction]
 logic=
 createTicket=

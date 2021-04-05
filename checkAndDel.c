@@ -1,7 +1,8 @@
 checkAndDel()
 {
-	int i, minPrice, minPriceNumber, count;
+	int i, count;
 	char paramName[100];
+	char *p;
 	
 //	Заходим в Itinerary
 	web_reg_save_param_ex(
@@ -17,9 +18,9 @@ checkAndDel()
 	    LAST);
 		
 	web_reg_save_param_ex(
-	    "ParamName=prices", 
-	    "LB/IC=Total Charge: $ ",
-	    "RB/IC= ",
+	    "ParamName=departCity", 
+	    "LB/IC=leaves ",
+	    "RB/IC=.<br>  ",
 	    "Ordinal=all");
 	
 	web_url("Itinerary Button", 
@@ -33,24 +34,21 @@ checkAndDel()
 		LAST);
 
 //	Ищем что удалать
-	minPrice = atoi(lr_eval_string("{prices_1}"));
-	minPriceNumber = 1;
-	count = atoi(lr_eval_string("{prices_count}"));
-	for(i = 2;i <= count; i++) {
-		sprintf(paramName, "{prices_%d}", i);
-		
-		if (minPrice > atoi(lr_eval_string(paramName))) {
-			minPrice = atoi(lr_eval_string(paramName));
-			minPriceNumber = i;
+	
+	count = atoi(lr_eval_string("{flightIDs_count}"));
+	lr_save_string("","param");
+
+	for(i = 1;i <= count; i++) {
+		strncpy(paramName, lr_paramarr_idx("departCity",i), 6);
+
+		if (strcmp(paramName,"London",6) != 0) {
+			lr_param_sprintf("param","%s%d=on&",lr_eval_string("{param}"), i);
+			lr_output_message("Удалить билет №%d в нем город отправки %s", i, paramName);
 		}
+		
 	}
 	
-	lr_output_message("Минимальная цена %d у билена под номером %d", minPrice, minPriceNumber);
-	
 //	собираем набор параметров для удаления
-	lr_save_string("","param");
-	lr_param_sprintf("param","%d=on&", minPriceNumber);
-	
 	for(i = 1;i <= count; i++) {
         lr_param_sprintf("param",
 	        "%sflightID=%s&",

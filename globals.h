@@ -7,6 +7,8 @@
 #include "web_api.h"
 #include "lrw_custom_body.h"
 
+int j, randomTicket;
+
 //--------------------------------------------------------------------
 // Global Variables
 

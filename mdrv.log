@@ -1,0 +1,35 @@
+vuser_init.c(18): -----------------------------------------
+vuser_init.c(19): 131031.27436209zHDQQcVpVHftAtDQpfcHAf
+logic.c(8): Создан билет №1
+createTicket.c(25): San Francisco
+createTicket.c(27): London
+createTicket.c(29): None
+createTicket.c(31): First
+createTicket.c(56): 623;899;05/04/2021
+createTicket.c(67): Sidor
+createTicket.c(69): Petrov
+createTicket.c(72): Adress Tverskaya, 3
+createTicket.c(75): Credit card 2222, 03/24
+logic.c(8): Создан билет №2
+createTicket.c(25): London
+createTicket.c(27): Zurich
+createTicket.c(29): None
+createTicket.c(31): Coach
+createTicket.c(56): 293;153;05/04/2021
+createTicket.c(67): Petr
+createTicket.c(69): Sidorov
+createTicket.c(72): Adress Oktyabrskaya, 2
+createTicket.c(75): Credit card 1111, 02/23
+logic.c(8): Создан билет №3
+createTicket.c(25): London
+createTicket.c(27): Paris
+createTicket.c(29): Aisle
+createTicket.c(31): Business
+createTicket.c(56): 243;129;05/04/2021
+createTicket.c(67): Sidor
+createTicket.c(69): Sidorov
+createTicket.c(72): Adress Oktyabrskaya, 1
+createTicket.c(75): Credit card 2222, 03/24
+vuser_init.c(18): -----------------------------------------
+vuser_init.c(19): 131031.274767112zHDQQcVpVQfiDDDDtAtDQpfcHVHf
+checkAndDel.c(52): Удалить билет №1 в нем город отправки San Fr

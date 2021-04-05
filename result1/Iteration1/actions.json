@@ -1,0 +1,128 @@
+[
+    {
+        "actionName": "logic",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: webtours",
+                "infFile": "t1.inf",
+                "time": 1617581083172
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Form: login.pl",
+                "infFile": "t2.inf",
+                "time": 1617581083540
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t3.inf",
+                "time": 1617581083905
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Form: reservations.pl",
+                "infFile": "t4.inf",
+                "time": 1617581084084
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Form: reservations.pl_2",
+                "infFile": "t5.inf",
+                "time": 1617581084320
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Form: reservations.pl_3",
+                "infFile": "t6.inf",
+                "time": 1617581084588
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t7.inf",
+                "time": 1617581085187
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Form: reservations.pl",
+                "infFile": "t8.inf",
+                "time": 1617581085574
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Submit Form: reservations.pl_2",
+                "infFile": "t9.inf",
+                "time": 1617581085854
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Form: reservations.pl_3",
+                "infFile": "t10.inf",
+                "time": 1617581086106
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t11.inf",
+                "time": 1617581086588
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Submit Form: reservations.pl",
+                "infFile": "t12.inf",
+                "time": 1617581086780
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Submit Form: reservations.pl_2",
+                "infFile": "t13.inf",
+                "time": 1617581086947
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Submit Form: reservations.pl_3",
+                "infFile": "t14.inf",
+                "time": 1617581087105
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t15.inf",
+                "time": 1617581087385
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: webtours",
+                "infFile": "t16.inf",
+                "time": 1617581087644
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Submit Form: login.pl",
+                "infFile": "t17.inf",
+                "time": 1617581087954
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t18.inf",
+                "time": 1617581088241
+            },
+            {
+                "stepId": "STEP19",
+                "stepName": "Custom Request: itinerary.pl_2",
+                "infFile": "t19.inf",
+                "time": 1617581088393
+            },
+            {
+                "stepId": "STEP20",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t20.inf",
+                "time": 1617581088639
+            }
+        ],
+        "transactions": []
+    }
+]
